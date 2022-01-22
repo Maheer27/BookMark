@@ -1,0 +1,39 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <!-- Form -->
+        <div class="container py5">
+            <h3 class="py-5 text-muted font-weight-bold">Bookmarker</h3>
+            <div class="bookmark  border-bottom border-top  text-center py-3">
+                <div class="bookmarkcointainer bg-light py-5">
+                <h3 class="py-3 font-weight-bold">Bookmark your favorite sites</h3>
+                <h5 class="py-2 font-weight-bold">Site Name</h5>
+                <div class="form-group col-md-10 m-auto py-2">
+                    <input class="form-control" type="text" id="bookmarkName" placeholder="Bookmark Name">
+                </div>
+                <h5 class="py-2 font-weight-bold">Site URL    </h5>
+                <div class="form-group col-md-10 m-auto py-2">
+                    <input class="form-control" type="text" id="bookmarkURL" placeholder="Bookmark URL">
+                </div>
+                <button class="btn btn-info p-2 my-3 px-3" onclick="addProcut()">Submit</button>
+            </div>
+            <div id="webSaved"  class=" flex-column py-3 "></div>
+            </div>
+            <h5 class="py-5 text-muted font-weight-bold">© 2019 Bookmarker Inc.</h5>
+
+       
+        </div>
+    </div>
+        <!-- /Form -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
